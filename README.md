@@ -17,6 +17,9 @@ Visual components and Python
 
 ## Program
 ```
+#Developed by : SUJITHA S
+#Register No : 212225040436
+
 arr_time=float(input("Enter the mean inter arrival time of objects from feeder (in secs):")) 
 ser_time1=float(input("Enter the mean inter service time of lathe machine 1 (in secs):")) 
 ser_time2=float(input("Enter the mean inter service time of lathe machine 2 (in secs):")) 
@@ -55,6 +58,7 @@ if(lam<mu1) and (lam<mu2) and (lam<mu3):
 else: 
     print("Warning! Objects overflow will happen in the conveyor") 
 print("--------------------------------------------------------------")
+
 ```
 ## Output
 <img width="737" height="482" alt="image" src="https://github.com/user-attachments/assets/641edc74-8059-4aa1-b9b3-5ff2a4d25aef" />
